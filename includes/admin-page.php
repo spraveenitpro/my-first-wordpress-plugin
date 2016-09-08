@@ -7,6 +7,7 @@ function mfwp_options_page(){
         <h2>My First WordPress Plugin Options</h2>
         <p>This is our settings page content</p>
         <p>This is going to be glorious!!</p>
+        <p>Other minor changes!!</p>
     </div>
 
 <?php
