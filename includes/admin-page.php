@@ -5,7 +5,8 @@ function mfwp_options_page(){
     ob_start(); ?>
     <div class="wrap">
         <h2>My First WordPress Plugin Options</h2>
-        <p>THis is our settings page content</p>
+        <p>This is our settings page content</p>
+        <p>This is going to be glorious!!</p>
     </div>
 
 <?php
