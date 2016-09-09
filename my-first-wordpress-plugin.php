@@ -13,6 +13,9 @@ Author URI: http://simpletechlife.in
  ************************************/
 $mwfp_prefix = 'mwfp_';
 $mwfp_plugin_name = 'My_First_WordPress_Plugin';
+
+//Retrieve our plugin settings from options table
+$mfwp_options = get_option('mfwp_settings');
 /*************************************
  * Includes
  ************************************/

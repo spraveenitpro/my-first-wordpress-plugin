@@ -4,9 +4,11 @@
 
 function mfwp_add_content($content){
 
+    global $mfwp_options;
+
     if ( is_single() ){
 
-        $extra_content = '<p class="twitter-message">Follow me on <a href="http://twitter.com/spraveenitpro">Twitter</a></p>';
+        $extra_content = '<p class="twitter-message">Follow me on <a href="'. $mfwp_options['twitter_url'] . '">Twitter</a></p>';
         $content .= $extra_content;
     }
     return $content;
